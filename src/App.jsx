@@ -6,7 +6,7 @@ export default function App() {
 	return (
 		<main>
 			<h1>Stacked PRs Demo1</h1>
-			<Card title="Hello my dude! It's Tuesday!">
+			<Card title="Hello my dude!">
 				<p>Count: {count}</p>
 				<Button onClick={() => setCount(count + 1)}>Increment</Button>{" "}
 			</Card>
